@@ -78,12 +78,12 @@ O contrato `Voting.sol` foi implantado na rede de testes Sepolia e é responsáv
     [`0x6Cf0287c2a479EAe135D7Cd2ed432C3de473fa1E`](0x6Cf0287c2a479EAe135D7Cd2ed432C3de473fa1E)
 
 
-## 👨‍💻 Autor
+<!--## 👨‍💻 Autor
 
 Desenvolvido por:
 
-* **Guilherme**
-    
+* **Guilherme Lucas**-->
+
 ## 📝 Licença
 
 Este projeto está sob a licença MIT.
