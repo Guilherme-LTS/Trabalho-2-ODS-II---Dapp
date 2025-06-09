@@ -29,8 +29,6 @@ A aplicação permite que usuários conectem suas carteiras Ethereum, visualizem
 * Node.js
 * Git & GitHub
 
-**Hospedagem:**
-* [Vercel](https://vercel.com/)
 
 ## 🚀 Executando o Projeto Localmente
 
