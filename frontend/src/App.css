@@ -1,0 +1,106 @@
+/* Estilos Globais e do Corpo da Página */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1a1a1a; /* Fundo escuro principal */
+  color: #f0f0f0; /* Cor de texto clara */
+}
+
+/* Container principal da aplicação */
+.App {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Cabeçalho / Card principal */
+.App-header {
+  background-color: #242424; /* Um tom de cinza mais claro para o card */
+  padding: 2rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 650px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #e0e0e0;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #a0a0a0;
+}
+
+/* Estilo geral dos botões */
+button {
+  background: linear-gradient(90deg, #3a7bd5, #00d2ff); /* Gradiente azul */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 115, 255, 0.2);
+}
+
+button:hover {
+  transform: translateY(-2px); /* Efeito de elevação */
+  box-shadow: 0 6px 20px rgba(0, 115, 255, 0.3);
+}
+
+button:disabled {
+  background: #555;
+  cursor: not-allowed;
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+/* Seção das propostas/candidatos */
+.proposals-section {
+  margin-top: 2.5rem;
+}
+
+h2 {
+  text-align: left;
+  color: #c7c7c7;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Card individual de cada proposta */
+.proposal-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.proposal-card:hover {
+    background-color: #3a3a3a;
+}
+
+.proposal-card span {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* Estilo específico para o botão de votar dentro do card */
+.proposal-card button {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+}

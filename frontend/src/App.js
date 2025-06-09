@@ -9,15 +9,14 @@ function App() {
   const [proposals, setProposals] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
-  // Função para carregar as propostas, agora separada para poder ser reutilizada
+  
   const loadProposals = async () => {
     if (contract) {
       try {
         setIsLoading(true);
-        // NOTA: Ainda usando o loop fixo. Para o trabalho, considere
-        // adicionar uma função `getProposalsCount()` no Solidity.
+        
         const tempProposals = [];
-        for (let i = 0; i < 3; i++) { // Assumindo 3 candidatos
+        for (let i = 0; i < 6; i++) { // Assumindo 6 candidatos
            const proposal = await contract.proposals(i);
            tempProposals.push({ 
               name: proposal.name, 
@@ -39,7 +38,7 @@ function App() {
   }, [contract]);
 
   const connectWallet = async () => {
-    // ... (função connectWallet continua a mesma)
+    
     if (window.ethereum) {
         try {
           const provider = new ethers.BrowserProvider(window.ethereum);
