@@ -57,7 +57,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
 O contrato `Voting.sol` foi implantado na rede de testes Sepolia e é responsável por toda a lógica de negócio da aplicação.
 
 * **Endereço do Contrato na Sepolia:**
-    [`0x6Cf0287c2a479EAe135D7Cd2ed432C3de473fa1E`](0x6Cf0287c2a479EAe135D7Cd2ed432C3de473fa1E)
+    [`0x246F0772F14688fe73d2acd0cBAd9229109d1cF2`](0x246F0772F14688fe73d2acd0cBAd9229109d1cF2)
 
 ## 🛠️ Tecnologias Utilizadas
 

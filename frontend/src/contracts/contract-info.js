@@ -1,7 +1,7 @@
 
 
 
-export const contractAddress = "0x6Cf0287c2a479EAe135D7Cd2ed432C3de473fa1E";
+export const contractAddress = "0x246F0772F14688fe73d2acd0cBAd9229109d1cF2";
 
 
 export const contractABI = [
@@ -15,19 +15,6 @@ export const contractABI = [
 		],
 		"stateMutability": "nonpayable",
 		"type": "constructor"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "_proposalIndex",
-				"type": "uint256"
-			}
-		],
-		"name": "vote",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
 	},
 	{
 		"anonymous": false,
@@ -47,6 +34,19 @@ export const contractABI = [
 		],
 		"name": "Voted",
 		"type": "event"
+	},
+	{
+		"inputs": [],
+		"name": "getProposalsCount",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
 	},
 	{
 		"inputs": [
@@ -89,6 +89,19 @@ export const contractABI = [
 			}
 		],
 		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_proposalIndex",
+				"type": "uint256"
+			}
+		],
+		"name": "vote",
+		"outputs": [],
+		"stateMutability": "nonpayable",
 		"type": "function"
 	}
 ]
