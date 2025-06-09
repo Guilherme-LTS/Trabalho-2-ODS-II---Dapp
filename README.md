@@ -4,11 +4,6 @@ Este é um projeto de uma Aplicação Descentralizada (dApp) para um sistema de 
 
 A aplicação permite que usuários conectem suas carteiras Ethereum, visualizem candidatos e registrem um voto único e imutável na rede de testes Sepolia, demonstrando os princípios de transparência, segurança e descentralização da tecnologia blockchain.
 
-## 🖼️ Demonstração
-
-![Demonstração do dApp de Votação](https://i.imgur.com/link_da_sua_imagem_aqui.png)
-*(Dica: Tire um print da sua aplicação funcionando, suba a imagem para um site como o [Imgur](https://imgur.com/upload) e cole o link aqui.)*
-
 ## ✨ Funcionalidades
 
 * Conexão com carteiras Ethereum (via MetaMask).
@@ -52,12 +47,12 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[SEU_USUARIO_GITHUB]/[NOME_DO_SEU_REPOSITORIO].git
+    git clone [https://github.com/](https://github.com/)Guilherme-LTS/Trabalho-2-ODS-II---Dapp.git
     ```
 
 2.  **Navegue até a pasta do frontend:**
     ```bash
-    cd [NOME_DO_SEU_REPOSITORIO]/frontend
+    cd Trabalho-2-ODS-II---Dapp/frontend
     ```
 
 3.  **Instale as dependências do projeto:**
@@ -82,19 +77,15 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
 O contrato `Voting.sol` foi implantado na rede de testes Sepolia e é responsável por toda a lógica de negócio da aplicação.
 
 * **Endereço do Contrato na Sepolia:**
-    [`[COLE_AQUI_O_ENDERECO_DO_SEU_CONTRATO]`](https://sepolia.etherscan.io/address/[COLE_AQUI_O_ENDERECO_DO_SEU_CONTRATO])
+    [`[0x61dEa7922F9D609a5593E2C04C506d76271BCf8a]`](0x61dEa7922F9D609a5593E2C04C506d76271BCf8a])
 
-* **Explorador de Blocos:**
-    Você pode visualizar o contrato, suas transações e seu código-fonte (se verificado) diretamente no [Sepolia Etherscan](https://sepolia.etherscan.io/).
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **[Seu Nome ou Nome da Equipe]**.
+Desenvolvido por:
 
 * **Guilherme**
-    * GitHub: [@seu-usuario-github](https://github.com/[SEU_USUARIO_GITHUB])
-    * LinkedIn: [/in/seu-linkedin](https://linkedin.com/in/[SEU_LINKEDIN])
-
+    
 ## 📝 Licença
 
 Este projeto está sob a licença MIT.
