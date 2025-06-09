@@ -12,24 +12,6 @@ A aplicação permite que usuários conectem suas carteiras Ethereum, visualizem
 * Segurança contra votos duplicados e em propostas inválidas.
 * Toda a lógica de votação é governada por um Smart Contract na blockchain, garantindo transparência e imutabilidade.
 
-## 🛠️ Tecnologias Utilizadas
-
-**Backend (Smart Contract):**
-* [Solidity](https://soliditylang.org/)
-* Rede de Testes Sepolia
-
-**Frontend:**
-* [React.js](https://reactjs.org/)
-* [Ethers.js](https://ethers.io/)
-* CSS
-
-**Ferramentas de Desenvolvimento:**
-* [Remix IDE](https://remix.ethereum.org/) (para deploy do contrato)
-* Visual Studio Code
-* Node.js
-* Git & GitHub
-
-
 ## 🚀 Executando o Projeto Localmente
 
 Siga os passos abaixo para executar o dApp em seu ambiente local.
@@ -76,6 +58,25 @@ O contrato `Voting.sol` foi implantado na rede de testes Sepolia e é responsáv
 
 * **Endereço do Contrato na Sepolia:**
     [`0x6Cf0287c2a479EAe135D7Cd2ed432C3de473fa1E`](0x6Cf0287c2a479EAe135D7Cd2ed432C3de473fa1E)
+
+## 🛠️ Tecnologias Utilizadas
+
+**Backend (Smart Contract):**
+* [Solidity](https://soliditylang.org/)
+* Rede de Testes Sepolia
+
+**Frontend:**
+* [React.js](https://reactjs.org/)
+* [Ethers.js](https://ethers.io/)
+* CSS
+
+**Ferramentas de Desenvolvimento:**
+* [Remix IDE](https://remix.ethereum.org/) (para deploy do contrato)
+* Visual Studio Code
+* Node.js
+* Git & GitHub
+
+
 
 
 <!--## 👨‍💻 Autor
