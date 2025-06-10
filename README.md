@@ -49,8 +49,21 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
     npm start
     ```
 
-6.  **Abra no navegador:**
-    A aplicação abrirá automaticamente em `http://localhost:3000`. Agora você pode conectar sua carteira e interagir com o dApp.
+6.  **Abra o Remix IDE:**
+    * Abra o Remix IDE, procure pelo arquivo **Voting.sol**, clique e compile ele.
+    * Após o ícone ✅ aparecer sobre ele, vá para o **"Deploy & run transactions"**
+
+7.  **No Deploy & run transactions:**
+    * Em "_proposalNames:" você insere a lista de canditados. Exemplo: ["Jucimar","Bolsonaro","Lula","Marcela","Voto em Branco","Voto Nulo"] e aperte em "Deploy" ou "Transact"
+    * Clicando no botão, o pop-up do MetaMask abrira para confirmar a transação e o contrato será criado
+
+8.  **Em Deployed Contracts**
+    Clique no triangulo para mostrar mais, e copie o adress do contrato no ícone "📄"
+
+9.  **No seu editor de codigo:**
+    Vá para **frontend\src\contracts\contract-info.js**, ou onde estiver seu **contract-info.js**
+    E cole o adress do contrato em: **export const contractAddress = "COLE_AQUI_O_ENDERECO_DO_SEU_CONTRATO";**
+
 
 ## 📄 Contrato Inteligente
 
