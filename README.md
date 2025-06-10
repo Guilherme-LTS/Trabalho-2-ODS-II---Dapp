@@ -65,8 +65,12 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
     Clique no triangulo para mostrar mais, e copie o adress do contrato no ícone "📄"
 
 9.  **No seu editor de codigo:**
-    Vá para **frontend\src\contracts\contract-info.js**, ou onde estiver seu **contract-info.js**
-    E cole o adress do contrato em: **export const contractAddress = "COLE_AQUI_O_ENDERECO_DO_SEU_CONTRATO";**
+    Vá para
+    * **frontend\src\contracts\contract-info.js**, ou onde estiver seu **contract-info.js**
+  
+    
+    E cole o adress do contrato em:
+    * **export const contractAddress = "COLE_AQUI_O_ENDERECO_DO_SEU_CONTRATO";**
 
 
 ## 📄 Contrato Inteligente
