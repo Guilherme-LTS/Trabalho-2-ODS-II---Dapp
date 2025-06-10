@@ -54,9 +54,11 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
     * Após o ícone ✅ aparecer sobre ele, vá para o **"Deploy & run transactions"**
 
 7.  **No Deploy & run transactions:**
-    * Em "_proposalNames:" você insere a lista de canditados. Exemplo: ```bash
+    * Em "_proposalNames:" você insere a lista de canditados. Exemplo: 
+    ```bash
     ["Jucimar","Bolsonaro","Lula","Marcela","Voto em Branco","Voto Nulo"]
-    ``` e aperte em "Deploy" ou "Transact"
+    ``` 
+    e aperte em "Deploy" ou "Transact"
     * Clicando no botão, o pop-up do MetaMask abrira para confirmar a transação e o contrato será criado
 
 8.  **Em Deployed Contracts**
