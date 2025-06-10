@@ -1,4 +1,5 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
+
 import { ethers } from 'ethers';
 import { contractAddress, contractABI } from './contracts/contract-info.js';
 import './App.css';
@@ -10,27 +11,30 @@ function App() {
   const [isLoading, setIsLoading] = useState(false);
 
   
-  const loadProposals = async () => {
-    if (contract) {
-      try {
-        setIsLoading(true);
-        
-        const tempProposals = [];
-        for (let i = 0; i < 6; i++) { // Assumindo 6 candidatos
-           const proposal = await contract.proposals(i);
-           tempProposals.push({ 
-              name: proposal.name, 
-              voteCount: proposal.voteCount.toString() 
-           });
-        }
-        setProposals(tempProposals);
-      } catch (error) {
-         console.error("Erro ao carregar propostas: ", error);
-      } finally {
-        setIsLoading(false);
+  const loadProposals = useCallback(async () => {
+  if (contract) {
+    try {
+      setIsLoading(true);
+      const count = await contract.getProposalsCount();
+      const tempProposals = [];
+
+      for (let i = 0; i < count; i++) {
+        const proposal = await contract.proposals(i);
+        tempProposals.push({ 
+          name: proposal.name, 
+          voteCount: proposal.voteCount.toString() 
+        });
       }
+
+      setProposals(tempProposals);
+    } catch (error) {
+      console.error("Erro ao carregar propostas: ", error);
+    } finally {
+      setIsLoading(false);
     }
-  };
+  }
+}, [contract]);
+
 
   // useEffect para carregar as propostas quando o contrato estiver pronto
   useEffect(() => {
